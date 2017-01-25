@@ -1,0 +1,37 @@
+{
+  "name": "covertheselyrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeeteer/CoverTheseLyricsGP.git"
+  },
+  "author": "CoverTheseLyricsTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeeteer/CoverTheseLyricsGP/issues"
+  },
+  "homepage": "https://github.com/coffeeteer/CoverTheseLyricsGP#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "lightbox2": "^2.8.2",
+    "method-override": "^2.3.6",
+    "moments": "0.0.2",
+    "mysql": "^2.11.1",
+    "nodemailer": "^2.6.4",
+    "nodemon": "^1.10.0",
+    "remodal": "^1.1.0",
+    "sequelize": "^3.23.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}

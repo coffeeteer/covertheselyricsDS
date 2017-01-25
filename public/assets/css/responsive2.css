@@ -1,0 +1,467 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+      .videobox{
+      padding-left: 77px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: purple;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 620px) {
+      .videobox{
+      padding-left: 50px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: yellow;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:450px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+      .videobox{
+      padding-left: 15px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: brown;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:350px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      .videobox{
+/*      padding-left: 39px;*/
+/*      padding-right:100px;*/
+
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: gray;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 132px;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      .videobox{
+      padding-left: 39px;
+/*      padding-right:100px;*/
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: green;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 132px;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      .videobox{
+      padding-left: 63px;
+/*      padding-right:100px;*/
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: purple;
+      border-width:2px;*/
+      }
+      iframe{
+        width:450px;
+      }
+
+      span.vote-btn{
+        margin-left: 157px;
+      }
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      .videobox{
+      padding-left: 39px;
+/*      padding-right:100px;*/
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: white;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:400px;
+      }
+
+      span.vote-btn{
+        align-content: center;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .videobox{
+      padding-left: 117px;
+/*      padding-right:100px;*/
+
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: red;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:550px;
+        height:425px;
+      }
+
+      span.vote-btn{
+        margin-left: 208px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .videobox{
+/*    width:100%;
+      margin: 0 auto;*/
+/*    align-content: center;*/
+      padding-left: 65px;
+      padding-top: 30px;
+/*    border-style: solid;
+      border-color: purple;
+      border-width:2px;*/
+      }
+
+      iframe{
+/*        margin: 0 auto;*/
+        width:575px;
+        height:325px;
+      }
+
+      span.vote-btn{
+        margin-left: 220px;
+      }
+    }
+
+            /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 620px) {
+      .videobox{
+      padding-left: 50px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: purple;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:450px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+
+            /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 648px) {
+      .videobox{
+      padding-left: 77px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: blue;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+        /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 625px) {
+      .videobox{
+      padding-left: 30px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: yellow;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .videobox{
+      padding-left: 16px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: blue;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:380px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 122px;
+      }
+    }
+
+        /* Extra Small Devices, Phones */ 
+    @media (min-width : 445px) and (max-width:479px) {
+      .videobox{
+      padding-left: 8px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: purple;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .videobox{
+      padding-left: 6px;
+      padding-top: 30px;
+/*      border-style: solid;
+      border-color: yellow;
+      border-width:2px;*/
+      }
+
+      iframe{
+        width:350px;
+        height:250px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+
+
+
+    /* Index Handlebars Media Queries */
+
+        @media only screen and (max-width: 2100px) {
+/*        #videos1{
+          padding-left: 10px
+        }*/
+
+          #videos1 iframe{
+/*          padding-left: 10px*/
+/*          border-style: solid;
+          border-color: yellow;
+          border-width: 2px;*/
+          width:350px;
+          height:250px;
+        }
+
+/*        #videos iframe {
+            width: 450px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }*/
+        #contest-submission iframe {
+            width: 650px;
+            height: 375px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        #about{
+          font-size: 32pt;
+        }
+        #contest-submission iframe {
+            width: 650px;
+            height: 450px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+          #videos1 iframe{
+/*          padding-left: 10px*/
+/*          border-style: solid;
+          border-color: purple;
+          border-width: 2px;*/
+          width:350px;
+          height:250px;
+        }
+    }
+
+        @media only screen and (max-width: 1100px) {
+        #about{
+          font-size: 32pt;
+        }
+        #contest-submission iframe {
+            width: 650px;
+            height: 450px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+        #videos.iframe{
+          width:320px;
+          height:290px;
+        }
+    }
+
+
+    @media only screen and (max-width: 992px) {
+        #contest-submission iframe {
+            width: 550px;
+            height: 300px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+        #about{
+          font-size: 24pt;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        #contest-submission iframe {
+            width: 475px;
+            height: 300px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        #contest-submission iframe {
+            width: 475px;
+            height: 300px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        #contest-submission iframe {
+            width: 450px;
+            height: 300px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+        }
+        #about {
+            font-size: 21pt;
+        }
+            #videos1 iframe{
+            margin-left: 20px;
+/*            border-style: solid;
+            border-color: purple;
+            border-width: 2px;*/
+            width:400px;
+            height:375px;
+            }
+    }
+
+
+        @media only screen and (max-width: 480px) {
+            #about {
+                font-size: 16pt;
+            }
+            #contest-submission iframe {
+            width: 350px;
+            height: 275px;
+/*            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;*/
+            }
+
+            #videos1 iframe{
+            margin-left: 20px;
+/*            border-style: solid;
+            border-color: purple;
+            border-width: 2px;*/
+            }
+        }
+        
+        @media only screen and (max-width: 400px) {
+            #about {
+                font-size: 16pt;
+            }
+        }
