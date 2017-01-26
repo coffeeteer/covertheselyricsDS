@@ -314,6 +314,12 @@ span.turn {
   /*max-width: 1000px;*/
 }
 
+#about-inner {
+  width: 80%;
+    position: relative;
+    left: 10%;
+}
+
 #contest-submission {
   padding-top: 80px;
   text-align: center;
