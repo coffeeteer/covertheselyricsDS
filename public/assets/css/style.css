@@ -85,8 +85,34 @@ div#mainnavbar.navbar-collapse.collapse.in {
 #navi7:active,
 #navi8:active,
 #navi9:active {
-  color: #1F4667;
+  color: #1F4667 !important;
+  font-size: 115% !important;
+  font-weight: bold !important;
+  color: gold !important;
 }
+
+ul.nav.navbar-nav:target {
+  /*color: purple !important;
+  font-weight: bolder !important;
+  text-decoration: underline !important;*/
+  color: purple !important;
+  font-weight: bolder !important;
+  text-decoration: underline !important;
+}
+
+/*#navi:target,
+#navi2:target,
+#navi3:target,
+#navi4:target,
+#navi5:target,
+#navi6:target,
+#navi7:target,
+#navi8:target,
+#navi9:target {
+  color: purple !important;
+  font-weight: bolder !important;
+  text-decoration: underline !important;
+}*/
 
 
 /*Body Styles*/
