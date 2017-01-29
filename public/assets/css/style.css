@@ -91,10 +91,7 @@ div#mainnavbar.navbar-collapse.collapse.in {
   color: gold !important;
 }
 
-ul.nav.navbar-nav:target {
-  /*color: purple !important;
-  font-weight: bolder !important;
-  text-decoration: underline !important;*/
+.nav .navbar-nav:target {
   color: purple !important;
   font-weight: bolder !important;
   text-decoration: underline !important;
@@ -108,11 +105,20 @@ ul.nav.navbar-nav:target {
 #navi6:target,
 #navi7:target,
 #navi8:target,
-#navi9:target {
+#navi9:target*/
+
+input[name="navi"]:target,
+input[name="navi2"]:target,
+input[name="navi3"]:target,
+input[name="navi4"]:target,
+input[name="navi5"]:target,
+input[name="navi7"]:target,
+input[name="navi8"]:target,
+input[name="navi9"]:target {
   color: purple !important;
   font-weight: bolder !important;
   text-decoration: underline !important;
-}*/
+}
 
 
 /*Body Styles*/
