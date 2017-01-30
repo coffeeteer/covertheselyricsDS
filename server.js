@@ -1,23 +1,36 @@
 var express = require('express');
+var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var exphbs = require('express-handlebars');
 var app = express();
 var nodemailer = require('nodemailer');
+var session = require('express-session');
 
 console.log('process.env.PORT', process.env.PORT);
 var port = process.env.PORT || 3010;
 var Submissions = require('./models')['Submissions'];
 var contestantVotes = require('./models')['contestantVotes'];
 
+//var configDB = require('./config/database.js'); // Must connect to SQL database not Mongoose
+
 global.db = require("./models");
 
 
 app.use(express.static(process.cwd() + '/public'));
 
+app.use(cookieParser()); // read cookies (needed for auth)
+
 app.use(bodyParser.urlencoded({
   extended: false
 }));
+
+// ********* required for passport
+app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
+app.use(passport.initialize());
+app.use(passport.session()); // persistent login sessions
+app.use(flash()); // use connect-flash for flash messages stored in session
+// *********** required for passport *************\\
 
 app.use(methodOverride('_method'));
 
