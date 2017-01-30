@@ -1,3 +1,4 @@
+// pulled from https://gist.github.com/manjeshpv/84446e6aa5b3689e8b84
 // config/passport.js
 				
 // load all the things we need

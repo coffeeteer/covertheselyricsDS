@@ -1,11 +1,21 @@
-var express = require('express');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+var express        = require('express');
+var cookieParser   = require('cookie-parser');
+var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
-var exphbs = require('express-handlebars');
-var app = express();
-var nodemailer = require('nodemailer');
-var session = require('express-session');
+var exphbs         = require('express-handlebars');
+var app            = express();
+var nodemailer     = require('nodemailer');
+var session        = require('express-session');
+
+//passport 
+var passport       = require('passport');
+var flash          = require('connect-flash');
+var LocalStrategy  = require('passport-local').Strategy;
+var session        = require('express-session');
+
+//passport routes
+// var routes = require('./routes/index');
+// var login = require('./routes/login');
 
 console.log('process.env.PORT', process.env.PORT);
 var port = process.env.PORT || 3010;

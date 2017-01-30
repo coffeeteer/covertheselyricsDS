@@ -1,4 +1,7 @@
 // // app/routes.js
+//var routes = require('./routes/index');
+//var login = require('./routes/login');
+
 // module.exports = function(app, passport) {
 
 //     // =====================================
