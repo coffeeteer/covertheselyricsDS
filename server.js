@@ -4,6 +4,12 @@ var methodOverride = require('method-override');
 var exphbs = require('express-handlebars');
 var app = express();
 var nodemailer = require('nodemailer');
+var passport = require('passport');
+var flash    = require('connect-flash');
+var morgan       = require('morgan');
+var cookieParser = require('cookie-parser');
+var session      = require('express-session');
+
 
 console.log('process.env.PORT', process.env.PORT);
 var port = process.env.PORT || 3010;
@@ -14,6 +20,10 @@ global.db = require("./models");
 
 
 app.use(express.static(process.cwd() + '/public'));
+
+app.use(morgan('dev')); // log every request to the console
+
+app.use(cookieParser()); // read cookies (needed for auth)
 
 app.use(bodyParser.urlencoded({
   extended: false
@@ -58,6 +68,15 @@ app.get('/lyrics', function(req, res) {
 app.get('/submit-video', function(req, res) {
   res.render('submit'); //get form for entry
 });
+
+// ********* required for passport ************ \\
+app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
+app.use(passport.initialize());
+app.use(passport.session()); // persistent login sessions
+app.use(flash()); // use connect-flash for flash messages stored in session
+
+require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+// ********* required for passport ************ \\
 
 app.post('/submit-video', function(req, res) { //send form data to db
   var body = req.body;
