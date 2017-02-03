@@ -7,11 +7,11 @@
 // *** Sesquelize Database config *** \\
 //var sequelize = new Sequelize('database', 'username', null)
 
-var Sequelize = require('sequelize')
-  , config = require(__dirname + "/../config/config")
+// var Sequelize = require('sequelize')
+//   , config = require(__dirname + "/../config/config")
 
-var sequelize = new Sequelize(config.mysql.database,
-config.mysql.username, config.mysql.password, {
-  dialect:  'mysql',
-  protocol: 'mysql'
-});
+// var sequelize = new Sequelize(config.mysql.database,
+// config.mysql.username, config.mysql.password, {
+//   dialect:  'mysql',
+//   protocol: 'mysql'
+// });

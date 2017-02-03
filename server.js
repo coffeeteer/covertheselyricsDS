@@ -11,7 +11,7 @@ var cookieParser = require('cookie-parser');
 var session      = require('express-session');
 
 
-console.log('process.env.PORT', process.env.PORT);
+//console.log('process.env.PORT', process.env.PORT);
 var port = process.env.PORT || 3010;
 var Submissions = require('./models')['Submissions'];
 var contestantVotes = require('./models')['contestantVotes'];
@@ -70,12 +70,12 @@ app.get('/submit-video', function(req, res) {
 });
 
 // ********* required for passport ************ \\
-app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
-app.use(passport.initialize());
-app.use(passport.session()); // persistent login sessions
-app.use(flash()); // use connect-flash for flash messages stored in session
+// app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
+// app.use(passport.initialize());
+// app.use(passport.session()); // persistent login sessions
+// app.use(flash()); // use connect-flash for flash messages stored in session
 
-require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+require('./routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
 // ********* required for passport ************ \\
 
 app.post('/submit-video', function(req, res) { //send form data to db
@@ -163,31 +163,31 @@ app.get('/prizes', function(req, res) {
 
 // Contact page email 
  
-// create reusable transporter object using the default SMTP transport 
-var transporter = nodemailer.createTransport('smtps://ctljenforce%40gmail.com:nineteen72@smtp.gmail.com');
+// // create reusable transporter object using the default SMTP transport 
+// var transporter = nodemailer.createTransport('smtps://ctljenforce%40gmail.com:nineteen72@smtp.gmail.com');
  
-// setup e-mail data with unicode symbols 
-var mailOptions = {
-    from: '"jen 👥" <jenforce@aol.com>', // sender address 
-    to: 'jenforce@aol.com', // list of receivers 
-    subject: 'Hello ✔', // Subject line 
-    text: 'Hello world 🐴', // plaintext body 
-    html: '<b>Hello world 🐴</b>' // html body 
-};
+// // setup e-mail data with unicode symbols 
+// var mailOptions = {
+//     from: '"jen 👥" <jenforce@aol.com>', // sender address 
+//     to: 'jenforce@aol.com', // list of receivers 
+//     subject: 'Hello ✔', // Subject line 
+//     text: 'Hello world 🐴', // plaintext body 
+//     html: '<b>Hello world 🐴</b>' // html body 
+// };
  
-// send mail with defined transport object 
-transporter.sendMail(mailOptions, function(error, info){
-    if(error){
-        return console.log(error);
-    }
-    console.log('Message sent: ' + info.response);
-});
+// // send mail with defined transport object 
+// transporter.sendMail(mailOptions, function(error, info){
+//     if(error){
+//         return console.log(error);
+//     }
+//     console.log('Message sent: ' + info.response);
+// });
 
 
 
 // sequelize sync: not in use
-db.sequelize.sync().then(function() {
+//db.sequelize.sync().then(function() {
   app.listen(port, function() {
     console.log('connected to port ', port);
   });
-});
+//});
