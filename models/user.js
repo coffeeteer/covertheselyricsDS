@@ -33,6 +33,16 @@ module.exports = function(sequelize, DataTypes) {
       associate: function(models) {
         // associations can be defined here
       }
+    },
+    classMethods: {
+      generateHash : function(password) {
+        return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+      },            
+    },
+      instanceMethods: {            
+      validPassword : function(password) {
+        return bcrypt.compareSync(password, this.localpassword);
+      }
     }
   });
   return user;
@@ -42,14 +52,14 @@ module.exports = function(sequelize, DataTypes) {
 
 // methods ======================
 // generating a hash
-userSchema.methods.generateHash = function(password) {
-    return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
-};
+// userSchema.methods.generateHash = function(password) {
+//     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+// };
 
 // checking if password is valid
-userSchema.methods.validPassword = function(password) {
-    return bcrypt.compareSync(password, this.local.password);
-};
+// userSchema.methods.validPassword = function(password) {
+//     return bcrypt.compareSync(password, this.local.password);
+// };
 
 // create the model for users and expose it to our app
 // module.exports = mongoose.model('User', userSchema);
