@@ -76,6 +76,7 @@ app.get('/submit-video', function(req, res) {
 // app.use(flash()); // use connect-flash for flash messages stored in session
 
 require('./routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+require('./config/passport')(passport); // pass passport for configuration
 // ********* required for passport ************ \\
 
 app.post('/submit-video', function(req, res) { //send form data to db
