@@ -1,19 +1,19 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var methodOverride = require('method-override');
-var exphbs = require('express-handlebars');
-var app = express();
-var nodemailer = require('nodemailer');
-var passport = require('passport');
-var flash    = require('connect-flash');
-var morgan       = require('morgan');
-var cookieParser = require('cookie-parser');
-var session      = require('express-session');
+var express         = require('express');
+var bodyParser      = require('body-parser');
+var methodOverride  = require('method-override');
+var exphbs          = require('express-handlebars');
+var app             = express();
+var nodemailer      = require('nodemailer');
+var passport        = require('passport');
+var flash           = require('connect-flash');
+var morgan          = require('morgan');
+var cookieParser    = require('cookie-parser');
+var session         = require('express-session');
 
 
 //console.log('process.env.PORT', process.env.PORT);
-var port = process.env.PORT || 3010;
-var Submissions = require('./models')['Submissions'];
+var port            = process.env.PORT || 3010;
+var Submissions     = require('./models')['Submissions'];
 var contestantVotes = require('./models')['contestantVotes'];
 
 global.db = require("./models");
@@ -70,12 +70,12 @@ app.get('/submit-video', function(req, res) {
 });
 
 // ********* required for passport ************ \\
-// app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
-// app.use(passport.initialize());
-// app.use(passport.session()); // persistent login sessions
-// app.use(flash()); // use connect-flash for flash messages stored in session
+app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
+app.use(passport.initialize());
+app.use(passport.session()); // persistent login sessions
+app.use(flash()); // use connect-flash for flash messages stored in session
 
-require('./routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
 require('./config/passport')(passport); // pass passport for configuration
 // ********* required for passport ************ \\
 
