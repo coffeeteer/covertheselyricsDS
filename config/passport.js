@@ -4,7 +4,7 @@
 var LocalStrategy   = require('passport-local').Strategy;
 
 // load up the user model
-var User            = require('../models/user');
+var User            = require('../app/models/user');
 
 // expose this function to our app using module.exports
 module.exports = function(passport) {
@@ -47,61 +47,32 @@ module.exports = function(passport) {
 
         // find a user whose email is the same as the forms email
         // we are checking to see if the user trying to login already exists
-        // Sequelize is Promisified
-// the 'then' method is called after all callbacks and events are processed succesfully
-// the 'catch' method is called if an error occurs
+        User.findOne({ 'local.email' :  email }, function(err, user) {
+            // if there are any errors, return the error
+            if (err)
+                return done(err);
 
-// the code below is called from a context that has an Express request 'req' and
-// requires callback 'done' to be called when done
+            // check to see if theres already a user with that email
+            if (user) {
+                return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
+            } else {
 
-// Sequelize is Promisified
-// the 'then' method is called after all callbacks and events are processed succesfully
-// the 'catch' method is called if an error occurs
+                // if there is no user with that email
+                // create the user
+                var newUser            = new User();
 
-// the code below is called from a context that has an Express request 'req' and
-// requires callback 'done' to be called when done
+                // set the user's local credentials
+                newUser.local.email    = email;
+                newUser.local.password = newUser.generateHash(password);
 
-User.findOne({ where: { localemail: email }})
-    .then(function(existingUser) { // findOne succesful, zero or one records found
-
-    // check to see if there's already a user with that email
-    if (existingUser) 
-        return done(null, false, req.flash('loginMessage', 'That email is already taken.'));
-
-    //  If we're logged in, we're connecting a new local account.
-    if(req.user) {
-        // update user properties
-        var user = req.user;
-        user.localemail = email;
-        user.localpassword = User.generateHash(password);
-        user.save()
-            .then (function() {
-                // user save succesful
-                done(null, user);
-            })
-            .catch(function (err) {
-                // user save failed
-                done(null, false, req.flash('loginMessage', err));
-            });
-        } else {
-        //  We're not logged in, so we're creating a brand new user.
-        // create the user
-        var newUser = User.build ({
-            localemail: email, 
-            localpassword: User.generateHash(password)
-        });
-        // store the newUser to the database
-        newUser.save()
-            .then(function() {
-                // newUser save succesful
-                done (null, newUser);
-            })
-            .catch(function(err) {
-                // newUser save failed
-                done(null, false, req.flash('loginMessage', err));});
+                // save the user
+                newUser.save(function(err) {
+                    if (err)
+                        throw err;
+                    return done(null, newUser);
+                });
             }
-        })
-    .catch(function (e) {
-        // some error occurred while executing the findone query
-        done(null, false, req.flash('loginMessage',e.name + " " + e.message));              
-    })
+        });    
+        });
+    }));
+};
