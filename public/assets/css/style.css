@@ -32,6 +32,12 @@ div#mainnavbar.navbar-collapse.collapse.in {
   background-color: transparent;
 }
 
+a.btn.btn-default.navbar-btn.navbar-right.nav-links {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+  color: #fff;
+}
+
 .logo {
   width: 200px;
 }
@@ -71,6 +77,11 @@ div#mainnavbar.navbar-collapse.collapse.in {
 #navi8:hover,
 #navi9:hover {
   color: #F4010F;
+}
+
+a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
+  color: #F4010F;
+  /*border-color: #F4010F;*/
 }
 
 
