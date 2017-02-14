@@ -70,6 +70,10 @@ app.get('/submit-video', function(req, res) {
   res.render('submit'); //get form for entry
 });
 
+app.get('/htds', function(req, res) {
+  res.render('htds');
+});
+
 // ********* required for passport ************ \\
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
 app.use(passport.initialize());
