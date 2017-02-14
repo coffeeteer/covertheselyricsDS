@@ -75,7 +75,9 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links {
 #navi6:hover,
 #navi7:hover,
 #navi8:hover,
-#navi9:hover {
+#navi9:hover,
+#navi10:hover,
+#navi10:hover {
   color: #F4010F;
 }
 
@@ -95,7 +97,8 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
 #navi6:active,
 #navi7:active,
 #navi8:active,
-#navi9:active {
+#navi9:active,
+#navi10:active {
   color: #1F4667 !important;
   font-size: 115% !important;
   font-weight: bold !important;
@@ -118,7 +121,7 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
 #navi8:target,
 #navi9:target*/
 
-input[name="navi"]:target,
+/*input[name="navi"]:target,
 input[name="navi2"]:target,
 input[name="navi3"]:target,
 input[name="navi4"]:target,
@@ -129,7 +132,7 @@ input[name="navi9"]:target {
   color: purple !important;
   font-weight: bolder !important;
   text-decoration: underline !important;
-}
+}*/
 
 
 /*Body Styles*/
