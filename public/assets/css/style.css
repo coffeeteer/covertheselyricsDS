@@ -357,7 +357,7 @@ span.turn {
   /*font-size: 35px;*/
   text-align: center;
   background-color: rgba(45, 45, 45, 0.7);
-  background-image: url('../images/HTDS/Harriet-Tubman-Image-5_SFW.png') width: 50%;
+  /*background-repeat: no-repeat;*/
   /*width: 85%; */
   margin: 0 auto;
   padding: 20px;
@@ -369,6 +369,12 @@ span.turn {
   width: 80%;
   position: relative;
   left: 10%;
+  background: url('../images/HTDS/HTDS-5-SFW.png');
+  background-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*max-width: 100%;*/
+  opacity: 0.1;
 }
 
 #contest-submission {
