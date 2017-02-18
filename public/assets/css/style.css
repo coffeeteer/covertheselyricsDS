@@ -369,12 +369,12 @@ span.turn {
   width: 80%;
   position: relative;
   left: 10%;
-  background: url('../images/HTDS/HTDS-5-SFW.png');
+  background: url('../images/HTDS/cropped-crossed-swords-SFWT.png');
   background-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   /*max-width: 100%;*/
-  opacity: 0.1;
+  /*opacity: 0.2;*/
 }
 
 #contest-submission {
