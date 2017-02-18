@@ -19,6 +19,12 @@ div#mainnavbar.navbar-collapse.collapse.in {
   font-family: 'Oleo Script', Arial !important;
 }
 
+#htds-logo {
+  position: relative;
+  left: -208px;
+  top: 119px;
+  width: 40%;
+}
 /*-------------------------------------*/
 
 /*Nav Styles*/
