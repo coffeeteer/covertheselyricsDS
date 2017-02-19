@@ -20,10 +20,19 @@ div#mainnavbar.navbar-collapse.collapse.in {
 }
 
 #htds-logo {
-  position: relative;
+  /*position: relative;
   left: -208px;
   top: 119px;
-  width: 40%;
+  width: 40%;*/
+  position: relative;
+  left: -196px;
+  top: -158px;
+  width: 148px;
+
+    /*position: relative;
+    left: -195px;
+    top: -105px;
+    width: 147px;*/
 }
 /*-------------------------------------*/
 
@@ -754,3 +763,23 @@ margin-left: -18.6%;
 }*/
 /*--------------Form Submit Page-----------------------*/
 
+/*-------------- HarrieFt Tubman Demon Slayer Page Begin----------------------*/
+.htds-page {
+  background-color: rgba(45, 45, 45, 0.7);
+  height: 300px;
+  background: url('../images/HTDS/cropped-crossed-swords-SFWT.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.htds-para {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  background-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-color: rgba(45, 45, 45, 0.7);
+  margin-top: 30px;
+}
+/*-------------- Harriet Tubman Demon Slayer Page End----------------------*/
