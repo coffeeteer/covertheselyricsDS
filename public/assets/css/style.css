@@ -782,4 +782,12 @@ margin-left: -18.6%;
   background-color: rgba(45, 45, 45, 0.7);
   margin-top: 30px;
 }
+
+.htds-imgs {
+  max-height: 450px;
+}
+
+.profile-img {
+  padding-top: 15px;
+}
 /*-------------- Harriet Tubman Demon Slayer Page End----------------------*/
