@@ -20,19 +20,12 @@ div#mainnavbar.navbar-collapse.collapse.in {
 }
 
 #htds-logo {
-  /*position: relative;
-  left: -208px;
-  top: 119px;
-  width: 40%;*/
   position: relative;
-  left: -196px;
-  top: -158px;
-  width: 148px;
-
-    /*position: relative;
-    left: -195px;
-    top: -105px;
-    width: 147px;*/
+  left: 850px;
+  top: -134px;
+  width: 243px;
+  -webkit-transform: rotate(-38deg);
+  -moz-transform: rotate(-38deg);
 }
 /*-------------------------------------*/
 
