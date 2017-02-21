@@ -74,6 +74,10 @@ app.get('/htds', function(req, res) {
   res.render('htds');
 });
 
+app.get('/top-five', function(req, res) {
+  res.render('top-five');
+});
+
 // ********* required for passport ************ \\
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
 app.use(passport.initialize());
