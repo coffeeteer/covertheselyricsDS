@@ -594,3 +594,85 @@ and (max-width: 992px;) {
 }
   
   /*---------------------------------*/
+
+/*--------HTDS Logo on Title Begin-------*/
+@media screen 
+  and (max-width: 1200px)
+  and (min-width: 1000px) {
+    #htds-logo {
+        left: 421px;
+        top: -131px;
+        width: 197px;
+    }
+} 
+
+@media screen 
+  and (max-width: 999px)
+  and (min-width: 850px) {
+    #htds-logo {
+        left: 382px;
+        top: -131px;
+        width: 159px;
+    }
+} 
+
+@media screen 
+  and (max-width: 849px)
+  and (min-width: 650px) {
+    #htds-logo {
+        left: 285px;
+        top: -110px;
+        width: 137px;
+    }
+} 
+
+@media screen 
+  and (max-width: 649px)
+  and (min-width: 560px) {
+    #htds-logo {
+        left: 268px;
+        top: -118px;
+        width: 129px;
+    }
+} 
+
+@media screen 
+  and (max-width: 559px)
+  and (min-width: 460px) {
+    #htds-logo {
+        left: 219px;
+        top: -105px;
+        width: 119px;
+    }
+} 
+
+@media screen 
+  and (max-width: 459px)
+  and (min-width: 410px) {
+    #htds-logo {
+        left: 220px;
+        top: -105px;
+        width: 104px;
+    }
+} 
+
+@media screen 
+  and (max-width: 459px)
+  and (min-width: 410px) {
+    #htds-logo {
+        left: 220px;
+        top: -105px;
+        width: 104px;
+   }
+} 
+
+@media screen 
+  and (max-width: 409px)
+   {
+    #htds-logo {
+        left: 147px;
+        top: -105px;
+        width: 87px;
+    }
+} 
+/*--------HTDS Logo on Title Begin-------*/

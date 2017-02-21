@@ -26,6 +26,7 @@ div#mainnavbar.navbar-collapse.collapse.in {
   width: 302px;
   -webkit-transform: rotate(-29deg);
   -moz-transform: rotate(-29deg);
+  margin-bottom: -122px;
 }
 /*-------------------------------------*/
 
