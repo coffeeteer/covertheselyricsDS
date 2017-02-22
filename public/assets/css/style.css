@@ -785,6 +785,15 @@ margin-left: -18.6%;
   padding-top: 15px;
 }
 
+.contestant-img {
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.contestant-info {
+  margin-left: 22px;
+}
+
 .amazon{
   background: #FD9807; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#FD9807, #FEF0C8); /* For Safari 5.1 to 6.0 */
