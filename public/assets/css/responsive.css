@@ -517,11 +517,8 @@ and (max-width : 409px)
 and (min-width:  850px)
 and (max-width : 1050px) 
  {
-  .carousel-caption-title, 
-  .carousel-caption-words  {
-    font-size: 90%;
-    /*background-color: orange;*/
-
+  .carousel-caption  {
+    top: initial;
   }
 }
 
@@ -530,10 +527,8 @@ and (max-width : 1050px)
 and (min-width:  560px)
 and (max-width : 849px)
  {
-  .carousel-caption-title, 
-  .carousel-caption-words  {
-    font-size: 70%;
-    /*background-color: black;*/
+  .carousel-caption  {
+    top: initial;
   }
 }
 
@@ -544,27 +539,17 @@ and (max-width : 849px)
 and (min-width : 410px)
 and (max-width : 559px) 
   {
-    .carousel-caption-title, 
-    .carousel-caption-words  {
-    font-size: 65%;
-    position: inherit;
-    text-align: center;
-      /*background-color: red;*/
-      /*color:purple;*/
-     /* position: absolute;
-      top: 20%;*/
-    }
+    .carousel-caption  {
+    top: initial;
+    }  
   }
 
   @media screen
 and (min-width : 50px)
 and (max-width : 409px) 
   {
-    .carousel-caption-title, 
-    .carousel-caption-words  {
-    font-size: 50%;
-    position: inherit;
-    text-align: center;
+    .carousel-caption  {
+    top: initial;
     }
   }
 

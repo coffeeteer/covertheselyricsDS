@@ -423,15 +423,16 @@ span.turn {
 
 .carousel-caption{
   top: 50%;
+  font-size: 170%;
 }
 
-.carousel-caption-title {
+/*.carousel-caption-title {
   font-size: 3.5rem;
-}
+}*/
 
-.carousel-caption-words{
+/*.carousel-caption-words{
   font-size: 1.5rem;
-}
+}*/
 
 .carousel-caption-title, 
 .carousel-caption-words {
