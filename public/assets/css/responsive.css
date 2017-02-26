@@ -116,6 +116,11 @@ and (max-width : 999px)
   .about-h2, .page-content{
     font-size: 90%;
   }
+
+  /*--Harriet Tubman Demon Slayer content--*/
+  .htds-content{
+    font-size: 175%;
+  }
 }
 
 @media screen  
@@ -132,6 +137,11 @@ and (max-width : 849px)
   .about-h2, .page-content{
     font-size: 85%;
   }
+
+  /*--Harriet Tubman Demon Slayer content--*/
+  .htds-content{
+    font-size: 175%;
+  }
 }
 
 @media screen  
@@ -146,6 +156,11 @@ and (max-width : 649px)
   /*1st paragraph index page*/
   .about-h2, .page-content{
     font-size: 80%;
+  }
+
+  /*--Harriet Tubman Demon Slayer content--*/
+  .htds-content{
+    font-size: 200%;
   }
 }
 
@@ -163,7 +178,12 @@ and (max-width : 559px)
  		}
     /*1st paragraph index page*/
     .about-h2, .page-content {
-    font-size: 75%;
+      font-size: 75%;
+    }
+
+    /*--Harriet Tubman Demon Slayer content--*/
+    .htds-content{
+      font-size: 210%;
     }
 	}
 
@@ -182,6 +202,11 @@ and (max-width : 409px)
     .about-h2, .page-content{
     font-size: 65%;
    }
+
+   /*--Harriet Tubman Demon Slayer content--*/
+    .htds-content{
+    font-size: 205%;
+    }
   }
 
 
@@ -685,4 +710,10 @@ and (max-width: 992px;) {
         width: 87px;
     }
 } 
-/*--------HTDS Logo on Title Begin-------*/
+/*--------HTDS Logo on Title Begin -------*/
+/*--------HTDS Profile Text Begin --------*/
+
+.htds-content{
+
+}
+/*--------HTDS Profile Text End ----------*/

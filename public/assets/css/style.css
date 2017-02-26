@@ -784,6 +784,7 @@ margin-left: -18.6%;
 .profile-img {
   padding-top: 15px;
   width: 75%;
+  margin-bottom: 10px;
 }
 
 .contestant-img {
@@ -805,7 +806,7 @@ margin-left: -18.6%;
 }
 .htds-content {
   font-family: "Ariel";
-  font-size: 2.6rem;
+  font-size: 2.6vw;
   text-align: left;
 }
 /*-------------- Harriet Tubman Demon Slayer Page End----------------------*/
