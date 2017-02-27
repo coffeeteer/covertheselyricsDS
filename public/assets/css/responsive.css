@@ -698,7 +698,7 @@ and (max-width: 992px;) {
 /*--------HTDS Logo on Title Begin -------*/
 /*--------HTDS Profile Text Begin --------*/
 @media (max-width: 768px) {
-  .btn {
+  .btn-responsive {
     font-size:11px;
     padding:4px 6px;
   }
