@@ -697,8 +697,32 @@ and (max-width: 992px;) {
 } 
 /*--------HTDS Logo on Title Begin -------*/
 /*--------HTDS Profile Text Begin --------*/
-
-.htds-content{
-
+@media (max-width: 768px) {
+  .btn {
+    font-size:11px;
+    padding:4px 6px;
+  }
 }
+
+@media (min-width: 768px) {
+  .btn-responsive {
+    font-size:12px;
+    padding:6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-responsive {
+    font-size:14px;
+    padding:8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-responsive {
+    padding:10px 16px;
+    font-size:18px;
+  }
+}
+
 /*--------HTDS Profile Text End ----------*/
