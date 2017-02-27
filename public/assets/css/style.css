@@ -24,8 +24,8 @@ div#mainnavbar.navbar-collapse.collapse.in {
   left: 776px;
   top: -155px;
   width: 302px;
-  -webkit-transform: rotate(-29deg);
-  -moz-transform: rotate(-29deg);
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
   margin-bottom: -122px;
 }
 /*-------------------------------------*/
@@ -166,7 +166,6 @@ input[name="navi9"]:target {
   color: #fff;
   text-align: center;
   font-size: 35px;
-  letter-spacing: 10px;
   font-family: georgia !important;
 }
 
@@ -301,6 +300,7 @@ span.turn {
       /* top: -50px;*/
       top: -80px;
       padding-left: 237px;
+      margin-bottom: -6%;
     }
 
 
