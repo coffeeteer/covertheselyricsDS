@@ -59,7 +59,9 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links {
 #navi6, 
 #navi7, 
 #navi8, 
-#navi9 {
+#navi9,
+#navi10,
+#navi11 {
   color: #fff;
 /*  padding-top: 50px;*/
   font-size: 10pt;
@@ -86,7 +88,7 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links {
 #navi8:hover,
 #navi9:hover,
 #navi10:hover,
-#navi10:hover {
+#navi11:hover {
   color: #F4010F;
 }
 
@@ -107,7 +109,8 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
 #navi7:active,
 #navi8:active,
 #navi9:active,
-#navi10:active {
+#navi10:active,
+#navi11:active {
   color: #1F4667 !important;
   font-size: 115% !important;
   font-weight: bold !important;
