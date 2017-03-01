@@ -507,7 +507,7 @@ and (max-width : 409px)
 /*----------Body Container--------*/
 /*@media screen {
   #body-container, #nav-wrapper {
-    max-width: 1366px;
+    max-width: 66px;
   }
 }*/
 /*---------Body Container End------*/
@@ -611,8 +611,9 @@ and (max-width: 992px;) {
   and (min-width: 1201px) {
     #htds-logo {
         left: 672px;
-        top: -94px;
+        top: -149px;
         width: 302px;
+        opacity: 0.8;
     }
 } 
 
