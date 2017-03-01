@@ -813,6 +813,16 @@ margin-left: -18.6%;
   font-size: 2.6vw;
   text-align: left;
 }
+
+.creators{
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-size: 2.7vw;
+}
+
+.creator-sub {
+  margin-top: -2%;
+  margin-left: 3%;
+}
 /*-------------- Harriet Tubman Demon Slayer Page End----------------------*/
 /*-------------------------Top Five Begin--------------------------------------*/
 .top-five-video {
