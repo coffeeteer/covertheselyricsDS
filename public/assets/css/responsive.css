@@ -1,5 +1,13 @@
 /*****Head Wrapper Beginning****/
 @media screen
+and (min-width:  1000px)
+and (max-width : 1200px) {
+  #title_wrapper{
+    margin-bottom: -78px;
+  }
+}
+
+@media screen
 and (min-width:  768px)
 and (max-width : 999px)
 {
@@ -10,6 +18,7 @@ and (max-width : 999px)
 
   #title_wrapper {
     padding-left: 185px;
+    margin-bottom: -9%;
   }
 }
 
@@ -25,6 +34,7 @@ and (max-width : 767px)
     padding-left: 130px;
     position:relative;
     top: -45px;
+    margin-bottom: -40px
   }
 }
 
@@ -40,6 +50,7 @@ and (max-width : 650px)
   #title_wrapper {
     padding-left: 130px;
     top: -20px;
+    margin-bottom: -26.9px;
   }
 }
 
@@ -57,6 +68,7 @@ and (max-width : 559px)
     height: 150px;
     /*margin-left: 500px;*/
     padding-left: 30px;
+    margin-bottom: -54px;
     }
   }
 
@@ -75,6 +87,7 @@ and (max-width : 409px)
     height: 130px;
     /*margin-left: 500px;*/
     padding-left: 10px;
+    margin-bottom: -56px;
     }
   }
 
@@ -613,7 +626,6 @@ and (max-width: 992px;) {
         left: 672px;
         top: -149px;
         width: 302px;
-        opacity: 0.8;
     }
 } 
 

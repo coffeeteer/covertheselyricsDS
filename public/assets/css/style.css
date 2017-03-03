@@ -123,30 +123,6 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
   text-decoration: underline !important;
 }
 
-/*#navi:target,
-#navi2:target,
-#navi3:target,
-#navi4:target,
-#navi5:target,
-#navi6:target,
-#navi7:target,
-#navi8:target,
-#navi9:target*/
-
-/*input[name="navi"]:target,
-input[name="navi2"]:target,
-input[name="navi3"]:target,
-input[name="navi4"]:target,
-input[name="navi5"]:target,
-input[name="navi7"]:target,
-input[name="navi8"]:target,
-input[name="navi9"]:target {
-  color: purple !important;
-  font-weight: bolder !important;
-  text-decoration: underline !important;
-}*/
-
-
 /*Body Styles*/
 
 #body-container {
@@ -303,7 +279,7 @@ span.turn {
       /* top: -50px;*/
       top: -80px;
       padding-left: 237px;
-      margin-bottom: -6%;
+      margin-bottom: -68px;
     }
 
 
