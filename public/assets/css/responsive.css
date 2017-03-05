@@ -72,7 +72,7 @@ and (max-width : 559px)
     }
 
     /*HTDS main page*/
-    h3.about-h2.oleo-title.minor-title{
+    h3.about-h2.oleo-title.minor-title.under-title  {
       font-size: 25pt;
     }
   }
@@ -99,8 +99,8 @@ and (max-width : 409px)
   }
 
   /*HTDS main page*/
-  h3.about-h2.oleo-title.minor-title {
-  font-size: 22pt;
+  h3.about-h2.oleo-title.minor-title.under-title { 
+  font-size: 17pt;
   }
 
   /**** Head Wrapper End ****/
@@ -430,7 +430,7 @@ and (max-width : 999px)
    }
 
    #units > span {
-    font-size: 85%;
+    font-size: 10pt;
    }
 }
 
@@ -453,7 +453,7 @@ and (max-width : 849px)
    }
 
     #units > span {
-    font-size: 80%;
+    font-size: 10pt;
    }
 }
 
@@ -477,7 +477,7 @@ and (max-width : 649px)
    }
 
     #units > span {
-    font-size: 80%;
+    font-size: 8pt;
    }
 }
 
@@ -500,7 +500,7 @@ and (max-width : 559px)
    }
 
     #units > span {
-    font-size: 80%;
+    font-size: 6pt;
    }
 }
 
@@ -524,8 +524,9 @@ and (max-width : 409px)
    }
 
     #units > span {
-    font-size: 80%;
+    font-size: 4.5pt;
    }
+
 }
 /*******Responsive Clock End**********/
 /*----------Body Container--------*/
