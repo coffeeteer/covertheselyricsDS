@@ -70,7 +70,14 @@ and (max-width : 559px)
     padding-left: 30px;
     margin-bottom: -54px;
     }
+
+    /*HTDS main page*/
+    h3.about-h2.oleo-title.minor-title{
+      font-size: 25pt;
+    }
   }
+
+  
 
 @media screen
 and (min-width : 150px)
@@ -91,6 +98,10 @@ and (max-width : 409px)
     }
   }
 
+  /*HTDS main page*/
+  h3.about-h2.oleo-title.minor-title {
+  font-size: 22pt;
+  }
 
   /**** Head Wrapper End ****/
 

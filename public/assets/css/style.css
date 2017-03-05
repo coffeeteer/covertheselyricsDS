@@ -443,8 +443,10 @@ span.turn {
   margin: 5px;
 }
 
-
-
+/*HTDS content*/
+h3.about-h2.oleo-title.minor-title {
+  font-size: 2.5vw;
+}
 /****************End Index page****************/
 
 /**************Lyrics Page**********************/
