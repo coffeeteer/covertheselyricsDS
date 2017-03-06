@@ -52,6 +52,11 @@ and (max-width : 650px)
     top: -20px;
     margin-bottom: -26.9px;
   }
+
+  /*HTDS button*/
+  .amazon {
+    font-size: 8pt;
+  }
 }
 
 @media screen
@@ -75,6 +80,12 @@ and (max-width : 559px)
     h3.about-h2.oleo-title.minor-title.under-title  {
       font-size: 25pt;
     }
+
+    /*HTDS button*/
+    /*.amazon {
+    font-size: 6pt;
+    font-weight: bold;
+    }*/
   }
 
   
@@ -102,6 +113,12 @@ and (max-width : 409px)
   h3.about-h2.oleo-title.minor-title.under-title { 
   font-size: 17pt;
   }
+
+  /*HTDS button*/
+    /*.amazon {
+    font-size: 5pt;
+    font-weight: bold;
+    }*/
 
   /**** Head Wrapper End ****/
 
