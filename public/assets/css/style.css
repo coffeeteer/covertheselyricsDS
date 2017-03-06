@@ -772,6 +772,7 @@ margin-left: -18.6%;
 .contestant-img {
   padding-left: 15px;
   margin-top: 15px;
+  width: 110%;
 }
 
 .contestant-info {
@@ -820,5 +821,9 @@ p.htds-content {
   font-weight: bold;
   font-size: 130%;
   font-family: 'Oleo Script', Arial !important;
+}
+
+.top-person {
+  width: 98%;
 }
 /*-------------------------Top Five End--------------------------------------*/
