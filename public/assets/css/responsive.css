@@ -226,6 +226,16 @@ and (max-width : 559px)
     .htds-content{
       font-size: 210%;
     }
+
+    /*Carousel Titles*/
+    .caro-title {
+      font-size: 12pt;
+    }
+
+    /*Carousel Subtitle*/
+    .caro-para{
+      font-size: 9pt;
+    }
 	}
 
   @media screen
@@ -246,7 +256,13 @@ and (max-width : 409px)
 
    /*--Harriet Tubman Demon Slayer content--*/
     .htds-content{
-    font-size: 205%;
+      font-size: 205%;
+    }
+    /*Carousel titles*/
+    .caro-title, p.caro-para {
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
     }
   }
 
