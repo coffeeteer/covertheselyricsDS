@@ -813,8 +813,13 @@ p.htds-content {
 /*-------------------------Top Five Begin--------------------------------------*/
 .top-five-video {
   padding-top: 10px;
-  padding-right: 30px;
+  padding-right: 35px;
   margin-right: 30px;
+  margin-bottom: 11%;
+}
+
+.top-five-content {
+  font-size: 2rem;
 }
 
 .top-five-content::first-letter {
@@ -827,7 +832,21 @@ p.htds-content {
   width: 98%;
 }
 
-iframe.top-five-vid {
+/*iframe.top-five-vid {
   width: 100%;
+}*/
+
+/*.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 25px;
+  height: 0;
 }
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 105%;
+}*/
 /*-------------------------Top Five End--------------------------------------*/

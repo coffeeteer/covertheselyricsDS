@@ -784,3 +784,26 @@ and (max-width: 992px;) {
 }
 
 /*--------HTDS Profile Text End ----------*/
+/*--- Videos on top five page-----*/
+@media screen
+  and (max-width: 540px)
+  and (min-width : 150px){
+  .video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 25px;
+  height: 0;
+  }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 105%;
+  }
+
+  .top-five-content {
+    font-size: 1.2rem;
+  }
+}
+/*---------------------------------*/
