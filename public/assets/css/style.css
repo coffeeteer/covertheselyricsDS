@@ -826,4 +826,8 @@ p.htds-content {
 .top-person {
   width: 98%;
 }
+
+iframe.top-five-vid {
+  width: 100%;
+}
 /*-------------------------Top Five End--------------------------------------*/
