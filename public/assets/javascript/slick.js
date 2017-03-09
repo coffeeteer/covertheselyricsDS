@@ -5,7 +5,7 @@ $(document).ready(function() {
 	//   slidesToScroll: 3
 	// });
 
-	$('#carousel').slick({
+	$('#lyric-carousel').slick({
     arrows: true,
     slidesToShow: 3,
     autoplay: true,
@@ -13,7 +13,7 @@ $(document).ready(function() {
     speed: 500,
     variableWidth: true,
     onAfterChange: function(){ 
-          var cat = ($('#carousel').slickCurrentSlide()) + 1;
+          var cat = ($('#lyric-carousel').slickCurrentSlide()) + 1;
           $('.client-text > li').hide();
           $('.client-text > li:nth-child('+ cat +')').show();
     }

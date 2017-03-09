@@ -855,21 +855,22 @@ p.htds-content {
 .container{padding-top:50px;}
 .client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
 
-.item{ height: 200px;}
-.one {background-image: url("http://placehold.it/200&text=1"); }
-.two {background-image: url("http://placehold.it/200&text=2"); }
-.three {background-image: url("http://placehold.it/200&text=3"); }
-.four {background-image: url("http://placehold.it/200&text=4"); }
-.five {background-image: url("http://placehold.it/200&text=5"); }
-.six {background-image: url("http://placehold.it/200&text=6"); }
-.seven {background-image: url("http://placehold.it/200&text=7"); }
+.item{ /*height: 200px;*/     height: 792px; background-repeat: no-repeat;}
+.one {background-image: url("/assets/images/finalLyricsC4/heart-to-heart-master.jpg_finished.jpg"); }
+.two {background-image: url("/assets/images/finalLyricsC4/music-master.jpg"); }
+.three {background-image: url("/assets/images/finalLyricsC4/feels-good-crop.jpg"); }
+.four {background-image: url("/assets/images/finalLyricsC4/peak-by-daria-hunter.jpg"); }
+.five {background-image: url("/assets/images/finalLyricsC4/somethingFin1.jpg"); }
+.six {background-image: url("/assets/images/finalLyricsC4/theMomenFin1r.jpg"); }
+/*.seven {background-image: url("http://placehold.it/200&text=7"); }
 .eight {background-image: url("http://placehold.it/200&text=8"); }
 .nine {background-image: url("http://placehold.it/200&text=9"); }
-.ten {background-image: url("http://placehold.it/200&text=10"); }
+.ten {background-image: url("http://placehold.it/200&text=10"); }*/
 .slick-slide{
-  width:230px;
-margin-right: 15px;
-margin-left: 15px;
+    width: 600px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-repeat: no-repeat;
 }
 
 
