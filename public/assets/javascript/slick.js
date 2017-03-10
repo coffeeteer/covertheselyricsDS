@@ -7,17 +7,18 @@ $(document).ready(function() {
 
 	$('#lyric-carousel').slick({
     arrows: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     autoplay: true,
-    autoplaySpeed:2500,
+    autoplaySpeed: 2500,
     speed: 500,
     variableWidth: true,
+    adaptiveHeight: true,
     onAfterChange: function(){ 
           var cat = ($('#lyric-carousel').slickCurrentSlide()) + 1;
           $('.client-text > li').hide();
           $('.client-text > li:nth-child('+ cat +')').show();
     }
-});
+}); 
 
 
 

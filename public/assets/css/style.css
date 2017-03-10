@@ -852,10 +852,29 @@ p.htds-content {
 /****---------Slick Slider----------******/
 .slick-prev:before, .slick-next:before { color: black; }
 
+button.slick-next.slick-arrow {
+  display: inline-block;
+  position: relative;
+  left: 100%;
+  bottom: 190px;
+}
+
+/*button.slick-prev.slick-arrow html input[type="text"] {
+  cursor: pointer;
+}*/
+
+button.slick-prev.slick-arrow {
+  display: inline-block;
+  position: relative;
+  right: 72px;
+  top: 190px;
+  /*font-family:"Glyphicons Halflings";*/
+}
+
 .container{padding-top:50px;}
 .client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
 
-.item{ /*height: 200px;*/     height: 792px; background-repeat: no-repeat;}
+.item{ /*height: 200px;*/     height: 350px; background-repeat: no-repeat; background-size: cover;}
 .one {background-image: url("/assets/images/finalLyricsC4/heart-to-heart-master.jpg_finished.jpg"); }
 .two {background-image: url("/assets/images/finalLyricsC4/music-master.jpg"); }
 .three {background-image: url("/assets/images/finalLyricsC4/feels-good-crop.jpg"); }
@@ -867,7 +886,7 @@ p.htds-content {
 .nine {background-image: url("http://placehold.it/200&text=9"); }
 .ten {background-image: url("http://placehold.it/200&text=10"); }*/
 .slick-slide{
-    width: 600px;
+    width:270px;
     margin-right: 15px;
     margin-left: 15px;
     background-repeat: no-repeat;
