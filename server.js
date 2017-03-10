@@ -9,6 +9,7 @@ var flash           = require('connect-flash');
 var morgan          = require('morgan');
 var cookieParser    = require('cookie-parser');
 var session         = require('express-session');
+// var ReactSlickCarousel    = require('react-slick-carousel');
 
 //console.log('process.env.PORT', process.env.PORT);
 var port            = process.env.PORT || 3010;
@@ -76,6 +77,7 @@ app.get('/htds', function(req, res) {
 app.get('/top-five', function(req, res) {
   res.render('top-five');
 });
+
 
 // ********* required for passport ************ \\
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret

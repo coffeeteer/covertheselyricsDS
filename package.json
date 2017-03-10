@@ -37,11 +37,17 @@
     "passport-google-oauth": "^1.0.0",
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-slick-carousel": "^0.14.9",
     "remodal": "^1.1.0",
-    "sequelize": "^3.23.6"
+    "sequelize": "^3.23.6",
+    "slick-carousel": "^1.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.10.0"
   },
- "engines" : { "node" : ">= 4.4.6" } 
+  "engines": {
+    "node": ">= 4.4.6"
+  }
 }
