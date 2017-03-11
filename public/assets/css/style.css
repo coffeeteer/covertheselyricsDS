@@ -403,6 +403,7 @@ span.turn {
 .carousel-caption{
   top: 50%;
   font-size: 170%;
+  display: block;
 }
 
 /*.carousel-caption-title {
@@ -788,6 +789,7 @@ margin-left: -18.6%;
   color: #696969;
   font-size: 2.5vw;
   font-weight: bold;
+  background-size: cover;
 }
 p.htds-content {
   font-family: "Ariel";
@@ -811,7 +813,7 @@ p.htds-content {
 }
 /*-------------- Harriet Tubman Demon Slayer Page End----------------------*/
 /*-------------------------Top Five Begin--------------------------------------*/
-.top-five-video {
+/*.top-five-video {
   padding-top: 10px;
   padding-right: 35px;
   margin-right: 30px;
@@ -832,44 +834,6 @@ p.htds-content {
   width: 98%;
 }
 
-/*iframe.top-five-vid {
-  width: 100%;
-}*/
-
-/*.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; 
-  padding-top: 25px;
-  height: 0;
-}
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 105%;
-  height: 105%;
-}*/
-/****---------Slick Slider----------******/
-.slick-prev:before, .slick-next:before { color: black; }
-
-button.slick-next.slick-arrow {
-  display: inline-block;
-  position: relative;
-  left: 100.5%;
-  bottom: 190px;
-}
-
-/*button.slick-prev.slick-arrow html input[type="text"] {
-  cursor: pointer;
-}*/
-
-button.slick-prev.slick-arrow {
-  display: inline-block;
-  position: relative;
-  right: 72px;
-  top: 190px;
-  /*font-family:"Glyphicons Halflings";*/
-}
 
 button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
   background-color: #fff;
@@ -880,17 +844,13 @@ button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
 .container{padding-top:50px;}
 .client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
 
-.item{ /*height: 200px;*/     height: 350px; background-repeat: no-repeat; background-size: cover;}
+.item{ /*height: 200px;*/     /*height: 350px; background-repeat: no-repeat; background-size: cover;}
 .one {background-image: url("/assets/images/finalLyricsC4/heart-to-heart-master.jpg_finished.jpg"); }
 .two {background-image: url("/assets/images/finalLyricsC4/music-master.jpg"); }
 .three {background-image: url("/assets/images/finalLyricsC4/feels-good-crop.jpg"); }
 .four {background-image: url("/assets/images/finalLyricsC4/peak-by-daria-hunter.jpg"); }
 .five {background-image: url("/assets/images/finalLyricsC4/somethingFin1.jpg"); }
 .six {background-image: url("/assets/images/finalLyricsC4/theMomenFin1r.jpg"); }
-/*.seven {background-image: url("http://placehold.it/200&text=7"); }
-.eight {background-image: url("http://placehold.it/200&text=8"); }
-.nine {background-image: url("http://placehold.it/200&text=9"); }
-.ten {background-image: url("http://placehold.it/200&text=10"); }*/
 .slick-slide{
     width:264px;
     margin-right: 15px;
@@ -904,7 +864,7 @@ height: 0;
 border-style: solid;
 border-width: 15px 15px 0 15px;
 border-color: #333333 transparent transparent transparent;
-}
+}*/
 /*****--------Slick Slider----------******/
 /*-------------------------Top Five End--------------------------------------*/
 
