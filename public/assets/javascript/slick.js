@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('#lyric-carousel').slick({
     arrows: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
     autoplay: true,
     autoplaySpeed: 2500,
     speed: 500,

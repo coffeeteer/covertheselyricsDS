@@ -855,7 +855,7 @@ p.htds-content {
 button.slick-next.slick-arrow {
   display: inline-block;
   position: relative;
-  left: 100%;
+  left: 100.5%;
   bottom: 190px;
 }
 
@@ -870,6 +870,12 @@ button.slick-prev.slick-arrow {
   top: 190px;
   /*font-family:"Glyphicons Halflings";*/
 }
+
+button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+  background-color: #fff;
+  padding-top: 1px;
+  border-radius: 2px;
+  }
 
 .container{padding-top:50px;}
 .client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
@@ -886,7 +892,7 @@ button.slick-prev.slick-arrow {
 .nine {background-image: url("http://placehold.it/200&text=9"); }
 .ten {background-image: url("http://placehold.it/200&text=10"); }*/
 .slick-slide{
-    width:270px;
+    width:264px;
     margin-right: 15px;
     margin-left: 15px;
     background-repeat: no-repeat;
