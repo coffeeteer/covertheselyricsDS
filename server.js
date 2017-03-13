@@ -9,10 +9,7 @@ var flash           = require('connect-flash');
 var morgan          = require('morgan');
 var cookieParser    = require('cookie-parser');
 var session         = require('express-session');
-var grunt           = require('grunt');
 
-
-// var ReactSlickCarousel    = require('react-slick-carousel');
 
 //console.log('process.env.PORT', process.env.PORT);
 var port            = process.env.PORT || 3010;
