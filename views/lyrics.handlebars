@@ -1,6 +1,6 @@
 <head><link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></head>
-<div class="container">
-  <h2 class="oleo-title">Check Out Lyrics For Our 5th Contest!</h2>
+<!-- <div class="container">
+  <h2 class="oleo-title">Check Out Lyrics For Our 5th Contest!</h2> -->
     <!-- <div class="gallery"> -->
       <!-- <div class="row">
         <div class="col-lg-4 lyric-div">
@@ -41,21 +41,21 @@
 
       </div> -->
       <!-- row 2 ends -->
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-6 col-offset-3">
           <div id="lyricsCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
+          <!--<ol class="carousel-indicators">
             <li data-target="#lyricsCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#lyricsCarousel" data-slide-to="1"></li>
             <li data-target="#lyricsCarousel" data-slide-to="2"></li>
             <li data-target="#lyricsCarousel" data-slide-to="3"></li>
             <li data-target="#lyricsCarousel" data-slide-to="4"></li>
             <li data-target="#lyricsCarousel" data-slide-to="5"></li>
-          </ol>
+          </ol> -->
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner lyric-carousel" role="listbox">
+        <!--  <div class="carousel-inner lyric-carousel" role="listbox">
             <div class="item active lyric-item">
               <img src="/assets/images/finalLyricsC4/heart-to-heart-master.jpg_finished.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'Heart to Heart' written by Ashur Hailey">
             </div>
@@ -68,10 +68,10 @@
               <img src="/assets/images/finalLyricsC4/feels-good-crop.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'Feels Good' written by Jennel Davis">
             </div>
 
-          </div>
+          </div>-->
 
           <!-- Left and right controls -->
-          <a class="left carousel-control" href="#lyricsCarousel" role="button" data-slide="prev">
+          <!--<a class="left carousel-control" href="#lyricsCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
@@ -85,17 +85,17 @@
     <div class="col-md-6 col-offset-1">  
       <div id="lyricsCarousel2" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
+          <!--<ol class="carousel-indicators">
             <li data-target="#lyricsCarousel2" data-slide-to="0" class="active"></li>
             <li data-target="#lyricsCarousel2" data-slide-to="1"></li>
             <li data-target="#lyricsCarousel2" data-slide-to="2"></li>
             <li data-target="#lyricsCarousel2" data-slide-to="3"></li>
             <li data-target="#lyricsCarousel2" data-slide-to="4"></li>
             <li data-target="#lyricsCarousel2" data-slide-to="5"></li>
-          </ol>
+          </ol>-->
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner lyric-carousel" role="listbox">
+          <!--<div class="carousel-inner lyric-carousel" role="listbox">
             <div class="item active lyric-item">
               <img src="/assets/images/finalLyricsC4/peak-by-daria-hunter.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'Peak' written by Daria Hunter">
             </div>
@@ -107,10 +107,10 @@
             <div class="item lyric-item">
               <img src="/assets/images/finalLyricsC4/theMomenFin1r.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'The Moment' written by Daria Hunter">
             </div>
-          </div>
+          </div> -->
 
           <!-- Left and right controls -->
-          <a class="left carousel-control" href="#lyricsCarousel2" role="button" data-slide="prev">
+          <!--<a class="left carousel-control" href="#lyricsCarousel2" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
@@ -121,5 +121,58 @@
         </div> 
       </div>
     </div>  
-  </div>  
+  </div> -->  
 
+<div class="container">
+  <h1>Use Bootstrap's carousel to show multiple items per slide.</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="carousel slide multi-item-carousel" id="threeCarousel">
+        <div class="carousel-inner multi-carousel-inner">
+          <div class="item active lyric-item"">
+            <div class="col-xs-4"><a href="#1"><img src="/assets/images/finalLyricsC4/heart-to-heart-master.jpg_finished.jpg" class="img-thumbnail img-responsive lyrics-img" alt="A lyrical composition titled 'Heart to Heart' written by Ashur Hailey"></a></div>
+          </div>
+          <div class="item lyric-item">
+            <div class="col-xs-4"><a href="#1"><img src="/assets/images/finalLyricsC4/music-master.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'Music' written by Ashur Hailey"></a></div>
+          </div>
+          <div class="item lyric-item">
+            <div class="col-xs-4"><a href="#1"><img src="/assets/images/finalLyricsC4/theMomenFin1r.jpg" class="img-thumbnail" alt="A lyrical composition titled 'The Moment' written by Daria Hunter"></a></div>
+          </div>
+          <div class="item lyric-item">
+            <div class="col-xs-4"><a href="#1"><img src="/assets/images/finalLyricsC4/peak-by-daria-hunter.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'Peak' written by Daria Hunter"></a></div>
+          </div>
+          <div class="item lyric-item">
+            <div class="col-xs-4"><a href="#1"><img src="/assets/images/finalLyricsC4/somethingFin1.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'Something' written by Ashur Hailey"></a></div>
+          </div>
+          <div class="item lyric-item">
+            <div class="col-xs-4"><a href="#1"><img src="/assets/images/finalLyricsC4/theMomenFin1r.jpg" class="img-thumbnail lyrics-img" alt="A lyrical composition titled 'The Moment' written by Daria Hunter"></a></div>
+          </div>
+          <!-- add  more items here -->
+          <!-- Example item start:  -->
+          
+          <!-- <div class="item lyric-item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+          </div> -->
+          
+          <!--  Example item end -->
+        </div>
+        <a class="left carousel-control" href="#threeCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#threeCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  less = {
+    env: "development",
+    async: false,
+    fileAsync: false,
+    poll: 1000,
+    functions: {},
+    dumpLineNumbers: "comments",
+    relativeUrls: false,
+    rootpath: ":/a.com/"
+  };
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
