@@ -1,7 +1,7 @@
 
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Submissions = sequelize.define('Submissions', {
+  var submissions = sequelize.define('submissions', {
     name: DataTypes.STRING,
     state: DataTypes.STRING,
     entry: DataTypes.STRING,

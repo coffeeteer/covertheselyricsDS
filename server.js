@@ -97,18 +97,18 @@ app.post('/submit-video', function(req, res) { //send form data to db
   console.log(str)
   console.log(URL);
 
-  db.Submissions.create({
-    name: body.name,
-    state: body.state,
-    email: body.email,
-    entry: URL,
-    lyrics: body.lyric,
-    optradio: body.optradio
-  }).then(function(data) {
-    console.log('data', data);
-    //res.redirect('/submit-video/');
-    res.render('index');
-  })
+  // db.Submissions.create({
+  //   name: body.name,
+  //   state: body.state,
+  //   email: body.email,
+  //   entry: URL,
+  //   lyrics: body.lyric,
+  //   optradio: body.optradio
+  // }).then(function(data) {
+  //   console.log('data', data);
+  //   //res.redirect('/submit-video/');
+  //   res.render('index');
+  // })
 });
 
 // initial vote page with submissions 
