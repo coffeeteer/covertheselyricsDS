@@ -191,6 +191,15 @@ and (max-width : 849px)
   .htds-content{
     font-size: 175%;
   }
+  
+  img.top-person {
+    width: 550px;
+    display: inline-block;
+  }
+
+  .top-five-video {
+    overflow: auto;
+  }
 }
 
 @media screen  
@@ -210,6 +219,10 @@ and (max-width : 649px)
   /*--Harriet Tubman Demon Slayer content--*/
   .htds-content{
     font-size: 200%;
+  }
+
+  img.top-person {
+    width: 400px;
   }
 }
 
@@ -244,6 +257,15 @@ and (max-width : 559px)
     .caro-para{
       font-size: 9pt;
     }
+
+    img.top-person {
+    width: 300px;
+    display: inline-block;
+    }
+
+    .top-five-video {
+      overflow: hidden;
+    }
 	}
 
   @media screen
@@ -270,6 +292,15 @@ and (max-width : 409px)
     .caro-title, p.caro-para {
       text-indent: 100%;
       white-space: nowrap;
+      overflow: hidden;
+    }
+
+    img.top-person {
+    width: 185px;
+    display: inline-block;
+    }
+
+    .top-five-video {
       overflow: hidden;
     }
   }
@@ -700,6 +731,7 @@ and (max-width: 992px;) {
         top: -131px;
         width: 159px;
     }
+
 } 
 
 @media screen 
