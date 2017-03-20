@@ -100,7 +100,7 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
 
 /*An Active Depressed click on Navigation Links*/
 
-#navi:active,
+/*#navi:active,
 #navi2:active,
 #navi3:active,
 #navi4:active,
@@ -115,6 +115,13 @@ a.btn.btn-default.navbar-btn.navbar-right.nav-links:hover {
   font-size: 115% !important;
   font-weight: bold !important;
   color: gold !important;
+}*/
+
+li.active .nav-links {
+  font-size: 115% !important;
+  font-weight: bold !important;
+  background-color: #c50A15 !important;
+  border-radius: 0 0 7px 7px !important;
 }
 
 .nav .navbar-nav:target {
