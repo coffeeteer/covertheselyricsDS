@@ -193,7 +193,7 @@ and (max-width : 849px)
   }
   
   img.top-person {
-    width: 550px;
+    width: 400px;
     display: inline-block;
   }
 
@@ -302,6 +302,14 @@ and (max-width : 409px)
 
     .top-five-video {
       overflow: hidden;
+    }
+
+    h1.col-xs-12.oleo-title{
+      font-size: 25px;
+    }
+
+    .contestant-info > h2 h3 {
+       font-size: 17px;
     }
   }
 
