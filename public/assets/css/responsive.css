@@ -143,6 +143,10 @@ and (max-width : 1200px)
   .about-h2, /*#page-content*/{
     font-size: 95%;
   }
+
+  .top-person {
+    width: 400px;
+  }
 }
 
 @media screen  
@@ -161,6 +165,10 @@ and (max-width : 999px)
   /*--Harriet Tubman Demon Slayer content--*/
   .htds-content{
     font-size: 175%;
+  }
+
+  .top-person {
+    width: 400px;
   }
 }
 
@@ -807,3 +815,8 @@ and (max-width: 992px;) {
   }
 }
 /*---------------------------------*/
+@media screen and (max-width: 1000px) {
+  .contestant-info {
+    margin-left: 0px;
+  }
+}
