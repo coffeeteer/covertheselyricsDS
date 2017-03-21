@@ -607,13 +607,7 @@ background-color: rgba(5, 131, 239, 0.42);
 .prize-container {
   background-color: rgba(45,45,45, 0.8);
 }
-
-/*.prize-list-items > li {
-  list-style: none;
-  font-size: 17pt;
-  content: '\2669';
-}*/
-
+/*List Items -Prizes Page -- Begin*/
 .prize-list-items > li {
     list-style: none;
     margin-left: 0;
@@ -635,6 +629,7 @@ background-color: rgba(5, 131, 239, 0.42);
     content: "\266a";
     padding-right: 5px;
 }
+/*List Items -Prizes Page -- End*/
 
 /****************End Prizes Page****************/
 

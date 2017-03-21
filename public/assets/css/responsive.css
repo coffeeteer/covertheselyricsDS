@@ -696,6 +696,9 @@ and (max-width : 409px)
   .collapse.in{
       display:block !important;
   }
+  li.active .nav-links {
+    border-radius: 0 !important;
+  }
 }
   /*---------Nav Bar Collapse End-------*/
   /*-------Winners Cirlce------------*/
