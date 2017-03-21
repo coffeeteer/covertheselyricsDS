@@ -459,6 +459,10 @@ h3.about-h2.oleo-title.minor-title {
 .indent{
   text-indent: 50px;
 }
+
+h2.oleo-title.prize {
+  text-align: left;
+}
 /****************End Index page****************/
 
 /**************Lyrics Page**********************/
@@ -598,6 +602,10 @@ background-color: rgba(5, 131, 239, 0.42);
 
 .prize-img {
   border-radius: 5%;
+}
+
+.prize-container {
+  background-color: rgba(45,45,45, 0.8);
 }
 
 /****************End Prizes Page****************/
